@@ -1,0 +1,38 @@
+.img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: px;
+}
+
+
+.card{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 600px;
+
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+}
+.paragrafo{
+    color: rgb(83, 207, 93);
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: rgb(255, 0, 0);
+}
+
+
+.cardcontainer{
+    width: auto;
+    height: 100px;
+    margin: 15px ;
+    align-items: center;
+}

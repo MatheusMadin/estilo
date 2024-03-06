@@ -1,0 +1,20 @@
+.spotify{
+    width: 270px;
+    height:80px ;
+    border-radius: 10px;
+}
+
+.cardmsc{
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    margin: 20px 10px;
+}
+
+.nomemsc{
+    color: white;
+}
+
+.nomecompo{
+    color: white;
+}

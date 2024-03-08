@@ -1,0 +1,14 @@
+.header{
+    background-color: black;
+}
+
+.imgheader{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+
+}
+
+.textheader{
+    color: white;  
+}

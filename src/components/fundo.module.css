@@ -1,7 +1,19 @@
 .fundoCardSite{
 display: flex;
 flex-direction: row;
-height: 650px;
+height: 450px;
 justify-content: space-between;
-margin: 20px 10px;
+font-size: small;
 }
+
+.titulo{
+    color: white;
+}
+
+.fundoCardmscSite{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    justify-content: space-between;
+    font-size: small;
+    }

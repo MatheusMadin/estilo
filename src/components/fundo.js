@@ -1,9 +1,11 @@
 import Card from "./card"
 import CardMSC from "./cardMSC"
 import styles from "./fundo.module.css"
+import Texts from "./text"
 function Fundo(props){
     return(
           <div className={styles.fundocardall}>
+            <div className={styles.titulo}><Texts H1="SITES DE COISAS Q EU SOU FÃ"/></div>
             <div  className={styles.fundoCardSite}>
             <Card src="https://i.pinimg.com/736x/c8/c9/28/c8c928df0112091453108431b5bb066e.jpg"
            titulo="SPIDERMAN"
@@ -51,7 +53,9 @@ function Fundo(props){
           />
             </div>
 
-            <div className={styles.fundoCardSite}>
+            <div className={styles.titulo}><Texts H1="MUSICAS Q EU GOSTO"/></div>
+
+            <div className={styles.fundoCardmscSite}>
               <CardMSC
               nomemsc="CLOUD 333"
               compositor="Bvtter"
@@ -63,15 +67,15 @@ function Fundo(props){
               linkMsc="https://open.spotify.com/embed/track/66IfNUx4NkU4cNzbOhLNC1?utm_source=generator"
               />
                   <CardMSC
-              nomemsc="I think i'm normal"
-              compositor="Carter ACE"
-              linkMsc="https://open.spotify.com/embed/track/66IfNUx4NkU4cNzbOhLNC1?utm_source=generator"
+              nomemsc="After The Storm"
+              compositor="Kali Uchis,Tyler,the creator,Boosty Collins"
+              linkMsc="https://open.spotify.com/embed/track/1otG6j1WHNvl9WgXLWkHTo?utm_source=generator"
               />
                
                <CardMSC
-              nomemsc="I think i'm normal"
-              compositor="Carter ACE"
-              linkMsc="https://open.spotify.com/embed/track/66IfNUx4NkU4cNzbOhLNC1?utm_source=generator"
+              nomemsc="Você"
+              compositor="Tim Maia"
+              linkMsc="https://open.spotify.com/embed/track/5c12DVTlsyFbxmysLw0Vll?utm_source=generator"
               />
                
                <CardMSC
